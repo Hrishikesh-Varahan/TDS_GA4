@@ -1,6 +1,5 @@
-hrishikeshvarahan@gmail.com
+#hrishikeshvarahan@gmail.com
 name: Daily Commit
-
 on:
   schedule:
     - cron: '15 4 * * *'
@@ -13,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # ✅ allows push access
+          token: ${{ secrets.GITHUB_TOKEN }}  
 
       - name: Commit step - hrishikeshvarahan@gmail.com
         run: |
